@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package>
+    <name>iKantam_Internal_SEO_Linking</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL) v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Internal SEO Linking Extension by iKantam</summary>
+    <description>&lt;h2&gt;Why do you require this extension: &lt;/h2&gt;&#xD;
+&lt;p&gt;This free extension provides a number of benefits to improve your search engine rankings with no money spent. Actually it provides you with free SEO services.&lt;/p&gt;&#xD;
+&lt;p&gt;Wisely targeting a limited number of keywords you will be able to observe search engine rankings improved over a short period of time. So, the reasons why you should consider installing this extension:&lt;/p&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;It is free&lt;/li&gt;&#xD;
+&lt;li&gt;It improves your search engine rankings (Google, Bing, Yahoo, etc.)&lt;/li&gt;&#xD;
+&lt;li&gt;It provides you with free SEO services&lt;/li&gt;&#xD;
+&lt;li&gt;It improves your visitor&#x2019;s experience with better interlinking your store pages&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;h2&gt;How it works:&lt;/h2&gt;&#xD;
+&lt;p&gt;You decide what pages (category, product, etc.)  require link value passed and when they require it (say, this month you need to promote new products or products with high margin) and distribute this value with 100% control on your side.&lt;/p&gt;&#xD;
+&lt;p&gt;Do you happen to have aHeadWorks blog extension installed? Then our extension is a must as you can turn your blog posts into a valuable source of link juice &#x2013; blog content is likely to attract external links and our extension allows this external links weight flow to your store product and category pages&#x2026;&lt;/p&gt;&#xD;
+&lt;h2&gt;Extension features include: &lt;/h2&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Add selected keywords&lt;/li&gt;&#xD;
+&lt;li&gt;Add defined anchor texts&lt;/li&gt;&#xD;
+&lt;li&gt;Add defined URL&#x2019;s&lt;/li&gt;&#xD;
+&lt;li&gt;Define replace limits&lt;/li&gt;&#xD;
+&lt;li&gt;Define what pages to enable for the extension (home page, CMS, category or product (product description) pages)&lt;/li&gt;&#xD;
+&lt;/ul&gt;</description>
+    <notes>First Stable Release</notes>
+    <authors><author><name>iKantam LLC</name><user>iKantam_</user><email>support@ikantam.com</email></author></authors>
+    <date>2012-05-30</date>
+    <time>14:38:20</time>
+    <contents><target name="magecommunity"><dir name="Ikantam"><dir name="Internalseolinking"><dir name="Block"><dir name="Adminhtml"><dir name="Internalseolinking"><dir name="Edit"><file name="Form.php" hash="2a5672206af629c12f1a836c718e092a"/><dir name="Tab"><file name="Form.php" hash="77e25c6a8ff0524c52aa8349b0018e95"/></dir><file name="Tabs.php" hash="7b2196deb6a4206e30a120f5c1385bee"/></dir><file name="Edit.php" hash="3f917f5ad0299a0d811a1f5773335492"/><file name="Grid.php" hash="8c600e389d67e2ca22dff3ef318d6196"/></dir><file name="Internalseolinking.php" hash="2f3bc667cf65df2a6d2b0b2d83e83d52"/></dir></dir><dir name="Helper"><file name="Data.php" hash="12c8f5780d7db445d60e1af27d6b05d1"/></dir><dir name="Model"><file name="Internalseolinking.php" hash="d4e08f9f126f06eb21f985cf70c46c7e"/><file name="Observer.php" hash="61b2e1e43ed6ed54a5d3177c92d5ebca"/><dir name="Resource"><dir name="Internalseolinking"><file name="Collection.php" hash="2b2cce53ebbda609c1216da98a801517"/></dir><file name="Internalseolinking.php" hash="9cd9994988d5a99555804e2288c4bec6"/><file name="Setup.php" hash="2a516f5cf4a09a7be32bdf7c4177ff97"/></dir><dir name="Template"><file name="Filter.php" hash="77301a8b6a9b2ed4faafef16f226b945"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="InternalseolinkingController.php" hash="dd5603abe96e4c261933569340a37e39"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="b5719893bcd60fa118cdaeeb3f4faf7e"/><file name="config.xml" hash="991d356a119bd0d06029ac8968fca430"/><file name="system.xml" hash="8674051bbf7293457d2dd876b3ca0bb6"/></dir><dir name="sql"><dir name="internalseolinking_setup"><file name="mysql4-install-0.1.0.php" hash="306ed2a715dd9c0598e9e1240543bc9b"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Ikantam_Internalseolinking.xml" hash="705fed66e2f75fa20a4225419719568b"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="internalseolinking.xml" hash="159e4cd95eb62e22d2bf28d6d9bd3fe1"/></dir></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><file name="Ikantam_Internalseolinking.csv" hash="8dd78eaaf57ae746321b76a99a77cb7f"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

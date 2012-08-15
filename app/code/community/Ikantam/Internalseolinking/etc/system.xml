@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Internal SEO Linking
+ *
+ * LICENSE: this source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ *
+ * @category    Ikantam
+ * @package     Ikantam_Internalseolinking
+ * @copyright   Copyright (c) 2012 iKantam LLC (http://www.ikantam.com)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+    <tabs>
+        <ikantam translate="label" module="internalseolinking">
+            <label>iKantam</label>
+            <sort_order>9999999</sort_order>
+        </ikantam>
+    </tabs>
+    
+    <sections>
+        <internalseolinking translate="label" module="internalseolinking">
+            <label>Internal SEO Linking</label>
+            <tab>ikantam</tab>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+ 
+            <groups>
+                <module_options translate="label" module="internalseolinking">
+                    <label>Module Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+ 
+                    <fields>
+                        <enabled translate="label">
+                            <label>Enabled: </label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </enabled>
+                    </fields>
+                </module_options>
+                
+                <process_options translate="label" module="internalseolinking">
+                    <label>Processing Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>20</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+ 
+                    <fields>
+                        <limit translate="label comment">
+                            <label>Max # of replacements per page: </label>
+                            <comment>Zero or empty for no limit</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </limit>
+                        
+                        <home translate="label comment">
+                            <label>Home page: </label>
+                            <comment>Process home page</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </home>
+                        
+                        <cms translate="label comment">
+                            <label>CMS pages: </label>
+                            <comment>Process CMS pages</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </cms>
+                        
+                        <products translate="label comment">
+                            <label>Product descriptions: </label>
+                            <comment>Process product descriptions</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </products>
+                        
+                        <categories translate="label comment">
+                            <label>Category descriptions: </label>
+                            <comment>Process category descriptions</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </categories>
+                        
+                        <awblog translate="label comment">
+                            <label>AheadWorks Blog: </label>
+                            <comment>Process AheadWorks blog pages</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>70</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </awblog>
+                        
+                        <exceptions translate="label comment">
+                            <label>Exception list: </label>
+                            <comment>List URL's (comma separated) that should be excluded from the extension actions</comment>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>80</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </exceptions>
+                    </fields>
+                </process_options>
+            </groups>
+        </internalseolinking>
+    </sections>
+
+</config>
